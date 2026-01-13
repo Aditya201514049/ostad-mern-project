@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: "#FF6A3D",
+            dark: "#0F172A",
+          },
+        },
+      },
+    }
+  </script>
+</head>
+
+<body class="font-sans text-dark">
+    <header class="max-w-7xl mx-auto px-6 py-4">
+  <nav class="flex justify-between items-center">
+    <img src="epixelab.png" alt="Logo" class="h-8">
+
+    <div class="hidden md:flex gap-8">
+      <a href="#">Home</a>
+      <a href="#">About Us</a>
+      <a href="#">Our App</a>
+      <a href="#">Contacts</a>
+    </div>
+
+    <div class="flex items-center gap-4">
+    <a href="#" class="text-dark hover:text-primary">
+      Login
+    </a>
+    <a href="#" class="bg-primary text-white px-5 py-2 rounded-lg">
+      Sign Up
+    </a>
+  </div>
+  </nav>
+</header>
+<section class="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center">
+  
+  <!-- Text -->
+  <div>
+    <h1 class="text-4xl md:text-5xl font-bold leading-tight">
+      We boost <span class="text-primary">growth</span><br>
+      for your startup business
+    </h1>
+
+    <p class="mt-6 text-gray-600">
+      Our goal is to help you grow your business quickly and effectively.
+    </p>
+
+    <div class="mt-8 flex gap-4">
+      <a href="#" class="bg-primary text-white px-6 py-3 rounded-lg">
+        Get Started
+      </a>
+      <a href="#" class="border px-6 py-3 rounded-lg">
+        Learn More
+      </a>
+    </div>
+  </div>
+
+  <!-- Image -->
+  <img src="Group 32.png" alt="Hero" class="w-full">
+</section>
+
+<section class="max-w-7xl mx-auto px-6 py-20">
+  <h2 class="text-center text-3xl font-semibold mb-12">
+    Our Vision & Our Goal
+  </h2>
+
+  <div class="grid md:grid-cols-3 gap-8">
+    
+    <div class="p-8 border rounded-xl text-center">
+      <img src="Activity.png" class="mx-auto mb-4">
+      <h3 class="font-semibold text-xl">Graphic Design</h3>
+      <p class="text-gray-600 mt-3">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui mi, bibendum eu erat id, ultricies semper metus. Nunc dapibus laoreet dolor nec imperdiet.
+      </p>
+      <button class="bg-primary text-white px-6 py-3 rounded-lg">Learn</button>
+    </div>
+
+    <div class="p-8 border rounded-xl text-center">
+      <img src="Video.png" class="mx-auto mb-4">
+      <h3 class="font-semibold text-xl">Video Editing</h3>
+      <p class="text-gray-600 mt-3">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui mi, bibendum eu erat id, ultricies semper metus. Nunc dapibus laoreet dolor nec imperdiet.
+      </p>
+      <button class="bg-primary text-white px-6 py-3 rounded-lg">Learn</button>
+    </div>
+
+    <div class="p-8 border rounded-xl text-center">
+      <img src="Chart.png" class="mx-auto mb-4">
+      <h3 class="font-semibold text-xl">Digital Marketing</h3>
+      <p class="text-gray-600 mt-3">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui mi, bibendum eu erat id, ultricies semper metus. Nunc dapibus laoreet dolor nec imperdiet.
+      </p>
+      <button class="bg-primary text-white px-6 py-3 rounded-lg">Learn</button>
+    </div>
+
+    
+
+  </div>
+</section>
+<section class="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center">
+  <img src="section-image.png" alt="">
+
+  <div>
+    <h2 class="text-3xl font-semibold">Many Blocks and Components</h2>
+    <p class="mt-4 text-gray-600">
+      Lorem ipsum dolor sit amet consectetur.
+    </p>
+  </div>
+</section>
+<section class="bg-gray-50 py-20">
+  <div class="max-w-7xl mx-auto px-6">
+    <h2 class="text-center text-3xl font-semibold mb-12">
+      What Clients Say
+    </h2>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="p-6 bg-white rounded-xl shadow">
+        <p class="text-gray-600">
+          “Amazing service and great support.”
+        </p>
+        <div class="mt-4 font-semibold">John Doe</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="max-w-7xl mx-auto px-6 py-20">
+  <div class="bg-primary text-white rounded-2xl p-12 text-center">
+    <h2 class="text-3xl font-semibold">Subscribe Our Newsletter</h2>
+
+    <div class="mt-6 flex flex-col md:flex-row gap-4 justify-center">
+      <input type="email" placeholder="Your email"
+        class="px-4 py-3 rounded-lg text-black w-full md:w-80">
+      <button class="bg-black px-6 py-3 rounded-lg">
+        Subscribe
+      </button>
+    </div>
+  </div>
+</section>
+<footer class="bg-gray-100 py-12">
+  <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between">
+    <p>© 2026 Company</p>
+    <div class="flex gap-6">
+      <a href="#">Portfolio</a>
+      <a href="#">How it works</a>
+      <a href="#">Pricing</a>
+      <a href="#">Abouts</a>
+      <a href="#">Login</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
